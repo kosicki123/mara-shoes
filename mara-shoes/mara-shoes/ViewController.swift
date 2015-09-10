@@ -23,5 +23,8 @@ class ViewController: NSViewController {
     }
 
 
+    @IBAction func openCashEntries(sender: AnyObject) {
+        print("Open Cash Entries")
+    }
 }
 
