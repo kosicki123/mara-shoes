@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16AB53361BA21B0F0097DAAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AB53351BA21B0F0097DAAA /* AppDelegate.swift */; };
+		16AB53381BA21B0F0097DAAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AB53371BA21B0F0097DAAA /* ViewController.swift */; };
+		16AB533A1BA21B0F0097DAAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16AB53391BA21B0F0097DAAA /* Assets.xcassets */; };
+		16AB533D1BA21B0F0097DAAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AB533B1BA21B0F0097DAAA /* Main.storyboard */; };
+		16AB53481BA21B0F0097DAAA /* mara_shoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AB53471BA21B0F0097DAAA /* mara_shoesTests.swift */; };
+		16AB53531BA21B0F0097DAAA /* mara_shoesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AB53521BA21B0F0097DAAA /* mara_shoesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16AB53441BA21B0F0097DAAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16AB532A1BA21B0F0097DAAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16AB53311BA21B0F0097DAAA;
+			remoteInfo = "mara-shoes";
+		};
+		16AB534F1BA21B0F0097DAAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16AB532A1BA21B0F0097DAAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16AB53311BA21B0F0097DAAA;
+			remoteInfo = "mara-shoes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16AB53321BA21B0F0097DAAA /* mara-shoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mara-shoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AB53351BA21B0F0097DAAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16AB53371BA21B0F0097DAAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16AB53391BA21B0F0097DAAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16AB533C1BA21B0F0097DAAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16AB533E1BA21B0F0097DAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AB53431BA21B0F0097DAAA /* mara-shoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mara-shoesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AB53471BA21B0F0097DAAA /* mara_shoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mara_shoesTests.swift; sourceTree = "<group>"; };
+		16AB53491BA21B0F0097DAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AB534E1BA21B0F0097DAAA /* mara-shoesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mara-shoesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AB53521BA21B0F0097DAAA /* mara_shoesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mara_shoesUITests.swift; sourceTree = "<group>"; };
+		16AB53541BA21B0F0097DAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16AB532F1BA21B0F0097DAAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AB53401BA21B0F0097DAAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AB534B1BA21B0F0097DAAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16AB53291BA21B0F0097DAAA = {
+			isa = PBXGroup;
+			children = (
+				16AB53341BA21B0F0097DAAA /* mara-shoes */,
+				16AB53461BA21B0F0097DAAA /* mara-shoesTests */,
+				16AB53511BA21B0F0097DAAA /* mara-shoesUITests */,
+				16AB53331BA21B0F0097DAAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16AB53331BA21B0F0097DAAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16AB53321BA21B0F0097DAAA /* mara-shoes.app */,
+				16AB53431BA21B0F0097DAAA /* mara-shoesTests.xctest */,
+				16AB534E1BA21B0F0097DAAA /* mara-shoesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16AB53341BA21B0F0097DAAA /* mara-shoes */ = {
+			isa = PBXGroup;
+			children = (
+				16AB53351BA21B0F0097DAAA /* AppDelegate.swift */,
+				16AB53371BA21B0F0097DAAA /* ViewController.swift */,
+				16AB53391BA21B0F0097DAAA /* Assets.xcassets */,
+				16AB533B1BA21B0F0097DAAA /* Main.storyboard */,
+				16AB533E1BA21B0F0097DAAA /* Info.plist */,
+			);
+			path = "mara-shoes";
+			sourceTree = "<group>";
+		};
+		16AB53461BA21B0F0097DAAA /* mara-shoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				16AB53471BA21B0F0097DAAA /* mara_shoesTests.swift */,
+				16AB53491BA21B0F0097DAAA /* Info.plist */,
+			);
+			path = "mara-shoesTests";
+			sourceTree = "<group>";
+		};
+		16AB53511BA21B0F0097DAAA /* mara-shoesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16AB53521BA21B0F0097DAAA /* mara_shoesUITests.swift */,
+				16AB53541BA21B0F0097DAAA /* Info.plist */,
+			);
+			path = "mara-shoesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16AB53311BA21B0F0097DAAA /* mara-shoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AB53571BA21B0F0097DAAA /* Build configuration list for PBXNativeTarget "mara-shoes" */;
+			buildPhases = (
+				16AB532E1BA21B0F0097DAAA /* Sources */,
+				16AB532F1BA21B0F0097DAAA /* Frameworks */,
+				16AB53301BA21B0F0097DAAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mara-shoes";
+			productName = "mara-shoes";
+			productReference = 16AB53321BA21B0F0097DAAA /* mara-shoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16AB53421BA21B0F0097DAAA /* mara-shoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AB535A1BA21B0F0097DAAA /* Build configuration list for PBXNativeTarget "mara-shoesTests" */;
+			buildPhases = (
+				16AB533F1BA21B0F0097DAAA /* Sources */,
+				16AB53401BA21B0F0097DAAA /* Frameworks */,
+				16AB53411BA21B0F0097DAAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16AB53451BA21B0F0097DAAA /* PBXTargetDependency */,
+			);
+			name = "mara-shoesTests";
+			productName = "mara-shoesTests";
+			productReference = 16AB53431BA21B0F0097DAAA /* mara-shoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16AB534D1BA21B0F0097DAAA /* mara-shoesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AB535D1BA21B0F0097DAAA /* Build configuration list for PBXNativeTarget "mara-shoesUITests" */;
+			buildPhases = (
+				16AB534A1BA21B0F0097DAAA /* Sources */,
+				16AB534B1BA21B0F0097DAAA /* Frameworks */,
+				16AB534C1BA21B0F0097DAAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16AB53501BA21B0F0097DAAA /* PBXTargetDependency */,
+			);
+			name = "mara-shoesUITests";
+			productName = "mara-shoesUITests";
+			productReference = 16AB534E1BA21B0F0097DAAA /* mara-shoesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16AB532A1BA21B0F0097DAAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Renan Kosicki | K-Mobi";
+				TargetAttributes = {
+					16AB53311BA21B0F0097DAAA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					16AB53421BA21B0F0097DAAA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 16AB53311BA21B0F0097DAAA;
+					};
+					16AB534D1BA21B0F0097DAAA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 16AB53311BA21B0F0097DAAA;
+					};
+				};
+			};
+			buildConfigurationList = 16AB532D1BA21B0F0097DAAA /* Build configuration list for PBXProject "mara-shoes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16AB53291BA21B0F0097DAAA;
+			productRefGroup = 16AB53331BA21B0F0097DAAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16AB53311BA21B0F0097DAAA /* mara-shoes */,
+				16AB53421BA21B0F0097DAAA /* mara-shoesTests */,
+				16AB534D1BA21B0F0097DAAA /* mara-shoesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16AB53301BA21B0F0097DAAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AB533A1BA21B0F0097DAAA /* Assets.xcassets in Resources */,
+				16AB533D1BA21B0F0097DAAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AB53411BA21B0F0097DAAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AB534C1BA21B0F0097DAAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16AB532E1BA21B0F0097DAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AB53381BA21B0F0097DAAA /* ViewController.swift in Sources */,
+				16AB53361BA21B0F0097DAAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AB533F1BA21B0F0097DAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AB53481BA21B0F0097DAAA /* mara_shoesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AB534A1BA21B0F0097DAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AB53531BA21B0F0097DAAA /* mara_shoesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16AB53451BA21B0F0097DAAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16AB53311BA21B0F0097DAAA /* mara-shoes */;
+			targetProxy = 16AB53441BA21B0F0097DAAA /* PBXContainerItemProxy */;
+		};
+		16AB53501BA21B0F0097DAAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16AB53311BA21B0F0097DAAA /* mara-shoes */;
+			targetProxy = 16AB534F1BA21B0F0097DAAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16AB533B1BA21B0F0097DAAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16AB533C1BA21B0F0097DAAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16AB53551BA21B0F0097DAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16AB53561BA21B0F0097DAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		16AB53581BA21B0F0097DAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mara-shoes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kmobi.mara-shoes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16AB53591BA21B0F0097DAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mara-shoes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kmobi.mara-shoes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16AB535B1BA21B0F0097DAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mara-shoesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kmobi.mara-shoesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mara-shoes.app/Contents/MacOS/mara-shoes";
+			};
+			name = Debug;
+		};
+		16AB535C1BA21B0F0097DAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mara-shoesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kmobi.mara-shoesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mara-shoes.app/Contents/MacOS/mara-shoes";
+			};
+			name = Release;
+		};
+		16AB535E1BA21B0F0097DAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mara-shoesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kmobi.mara-shoesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "mara-shoes";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		16AB535F1BA21B0F0097DAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mara-shoesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kmobi.mara-shoesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "mara-shoes";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16AB532D1BA21B0F0097DAAA /* Build configuration list for PBXProject "mara-shoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AB53551BA21B0F0097DAAA /* Debug */,
+				16AB53561BA21B0F0097DAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16AB53571BA21B0F0097DAAA /* Build configuration list for PBXNativeTarget "mara-shoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AB53581BA21B0F0097DAAA /* Debug */,
+				16AB53591BA21B0F0097DAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16AB535A1BA21B0F0097DAAA /* Build configuration list for PBXNativeTarget "mara-shoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AB535B1BA21B0F0097DAAA /* Debug */,
+				16AB535C1BA21B0F0097DAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16AB535D1BA21B0F0097DAAA /* Build configuration list for PBXNativeTarget "mara-shoesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AB535E1BA21B0F0097DAAA /* Debug */,
+				16AB535F1BA21B0F0097DAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16AB532A1BA21B0F0097DAAA /* Project object */;
+}
