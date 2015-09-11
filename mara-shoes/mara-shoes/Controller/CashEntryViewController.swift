@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CashEntryViewController.swift
 //  mara-shoes
 //
 //  Created by Renan Kosicki on 9/10/15.
@@ -8,23 +8,22 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
-
+class CashEntryViewController: NSViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
-
+    
     override var representedObject: AnyObject? {
         didSet {
-        // Update the view, if already loaded.
+            // Update the view, if already loaded.
         }
     }
-
-
-    @IBAction func openCashEntries(sender: AnyObject) {
-        print("Open Cash Entries")
+    
+    @IBAction func back(sender: AnyObject) {
+        presentingViewController?.dismissViewController(self)
     }
 }
 

@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		169659151BA269110097FFEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169659141BA269110097FFEA /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		169659171BA269820097FFEA /* CashEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169659161BA269810097FFEA /* CashEntryViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		169659191BA26B640097FFEA /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169659181BA26B640097FFEA /* PresentationViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		1696591B1BA26D750097FFEA /* ReplacePresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1696591A1BA26D750097FFEA /* ReplacePresentationAnimator.swift */; settings = {ASSET_TAGS = (); }; };
 		16AB53361BA21B0F0097DAAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AB53351BA21B0F0097DAAA /* AppDelegate.swift */; };
-		16AB53381BA21B0F0097DAAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AB53371BA21B0F0097DAAA /* ViewController.swift */; };
 		16AB533A1BA21B0F0097DAAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16AB53391BA21B0F0097DAAA /* Assets.xcassets */; };
 		16AB533D1BA21B0F0097DAAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AB533B1BA21B0F0097DAAA /* Main.storyboard */; };
 		16AB53481BA21B0F0097DAAA /* mara_shoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AB53471BA21B0F0097DAAA /* mara_shoesTests.swift */; };
@@ -33,9 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		169659141BA269110097FFEA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		169659161BA269810097FFEA /* CashEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashEntryViewController.swift; sourceTree = "<group>"; };
+		169659181BA26B640097FFEA /* PresentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
+		1696591A1BA26D750097FFEA /* ReplacePresentationAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplacePresentationAnimator.swift; sourceTree = "<group>"; };
 		16AB53321BA21B0F0097DAAA /* mara-shoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mara-shoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16AB53351BA21B0F0097DAAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16AB53371BA21B0F0097DAAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16AB53391BA21B0F0097DAAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16AB533C1BA21B0F0097DAAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16AB533E1BA21B0F0097DAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +78,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1696590F1BA268EE0097FFEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				169659141BA269110097FFEA /* ViewController.swift */,
+				169659161BA269810097FFEA /* CashEntryViewController.swift */,
+				169659181BA26B640097FFEA /* PresentationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		169659101BA268EE0097FFEA /* Store */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		169659111BA268EE0097FFEA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1696591A1BA26D750097FFEA /* ReplacePresentationAnimator.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		169659121BA268EE0097FFEA /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		169659131BA268EE0097FFEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		16AB53291BA21B0F0097DAAA = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +140,12 @@
 		16AB53341BA21B0F0097DAAA /* mara-shoes */ = {
 			isa = PBXGroup;
 			children = (
+				1696590F1BA268EE0097FFEA /* Controller */,
+				169659101BA268EE0097FFEA /* Store */,
+				169659111BA268EE0097FFEA /* Util */,
+				169659121BA268EE0097FFEA /* Vendor */,
+				169659131BA268EE0097FFEA /* View */,
 				16AB53351BA21B0F0097DAAA /* AppDelegate.swift */,
-				16AB53371BA21B0F0097DAAA /* ViewController.swift */,
 				16AB53391BA21B0F0097DAAA /* Assets.xcassets */,
 				16AB533B1BA21B0F0097DAAA /* Main.storyboard */,
 				16AB533E1BA21B0F0097DAAA /* Info.plist */,
@@ -251,8 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16AB53381BA21B0F0097DAAA /* ViewController.swift in Sources */,
+				169659191BA26B640097FFEA /* PresentationViewController.swift in Sources */,
+				169659171BA269820097FFEA /* CashEntryViewController.swift in Sources */,
+				169659151BA269110097FFEA /* ViewController.swift in Sources */,
 				16AB53361BA21B0F0097DAAA /* AppDelegate.swift in Sources */,
+				1696591B1BA26D750097FFEA /* ReplacePresentationAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +526,7 @@
 				16AB53591BA21B0F0097DAAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16AB535A1BA21B0F0097DAAA /* Build configuration list for PBXNativeTarget "mara-shoesTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +535,7 @@
 				16AB535C1BA21B0F0097DAAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16AB535D1BA21B0F0097DAAA /* Build configuration list for PBXNativeTarget "mara-shoesUITests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +544,7 @@
 				16AB535F1BA21B0F0097DAAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
